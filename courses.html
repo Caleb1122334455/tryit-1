@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+<!-- ✅ Latest Font Awesome (as of mid-2025) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview.png" alt=""></a>
+            <div class="nav-list" id="nav-lista">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+ 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+          <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+           <h1>Our Courses</h1>
+        
+
+    </section>
+
+    <!----------------courses page---------->
+     <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>We offer hands-on courses for today’s tech-driven world.</p>
+
+        <div class="row">
+            <div class="course-container">
+                <h3>Web Development</h3>
+                <p>Learn to build interactive and responsive websites using HTML, CSS, JavaScript, and modern frameworks like React. This course prepares you for real-world development and design projects from scratch to deployment.</p>
+
+                
+            </div>  
+            <div class="course-container">
+                <h3>Mobile App Development</h3>
+                 <p>Create mobile applications for Android and iOS using Flutter or React Native. You'll gain hands-on experience developing, testing, and publishing apps while learning essential mobile UI/UX principles and backend integration.</p>
+
+            </div>
+            <div class="course-container">
+                <h3>Data Science</h3>
+                <p>Dive into data analytics, machine learning, and visualization using Python, Pandas, and TensorFlow. This course equips you with the skills to turn raw data into powerful business and research insights.</p>
+
+            </div>
+        </div>
+
+        </section>
+
+        <!---------facilities====---------->
+
+<section class="facilities">
+            <h1>Our facilities</h1>
+              <p>Our facilities support innovation, study, and collaboration.</p>
+
+            <div class="row">
+                <div class="facililties-col">
+                    <img src="library.jfif" alt="">
+                    <h3>Library</h3>
+                     <p>A quiet, well-equipped space where students can read, study, and access online databases, research tools, and IT-related materials anytime.</p>
+
+                </div>
+                <div class="facililties-col">
+                    <img src="lab.jfif" alt="">
+                    <h3>Computer Lab</h3>
+                                        <p>Fully equipped computer labs where students practice coding, experiment with hardware, and learn emerging technologies in a supportive environment.</p>
+
+                </div>
+                <div class="facililties-col">
+                    <img src="sport.jfif" alt="">
+                    <h3>Sports Complex</h3>
+                    <p>A vibrant sports facility that encourages teamwork, fitness, and a balanced student lifestyle on campus.</p>
+
+                </div>
+            
+        </section>
+
+    
+    <!----------------- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are dedicated to empowering students with quality education <br>and innovative learning experiences. Join us to grow and succeed.</p>
+
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart"></i>  by Caleb </p>
+    </section>
+  <!--------------  about us  -->
+   
+    
+
+
+
+        <!---js for toggle menu -->
+    <script>
+        var navList = document.getElementById("nav-lista");
+
+        function showMenu() {
+            navList.style.right = "0";
+        }
+
+        function hideMenu() {
+            navList.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

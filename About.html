@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+<!-- ✅ Latest Font Awesome (as of mid-2025) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview.png" alt=""></a>
+            <div class="nav-list" id="nav-lista">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+ 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+          <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+           <h1>About Us</h1>
+    </section>
+
+    <!----------------about us content--------------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>We are proud to be a global leader in education, offering world-class programs across multiple disciplines. With a commitment to innovation, research, and student success, we empower learners from every corner of the world to achieve their full potential.</p>
+
+            <a href="" class="btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jfif" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+    <!----------------- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are dedicated to empowering students with quality education <br>and innovative learning experiences. Join us to grow and succeed.</p>
+
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart"></i>  by Caleb </p>
+    </section>
+ >
+
+
+
+        <!---js for toggle menu -->
+    <script>
+        var navList = document.getElementById("nav-lista");
+
+        function showMenu() {
+            navList.style.right = "0";
+        }
+
+        function hideMenu() {
+            navList.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

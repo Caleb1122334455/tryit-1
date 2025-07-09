@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHOOL WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+<!-- ✅ Latest Font Awesome (as of mid-2025) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo-removebg-preview.png" alt=""></a>
+            <div class="nav-list" id="nav-lista">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+ 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+          <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+           <h1>Our Certificate & online Programs For 2025</h1>
+
+    </section>
+    <!------------blog page content------->
+   <section class="blog">
+    <div class="row">
+        <div class="bloglf">
+            <img src="certificate.jfif" alt="">
+            <h2>Our Certificate & online Programs For 2025</h2>
+            <h2>Our Certificate & Online Programs for 2025</h2>
+     <p>Explore our diverse range of certificate courses designed to equip you with the latest skills in technology, business, and innovation. Each program combines expert instruction with hands-on learning to prepare you for success.</p>
+     <br>
+     <p>Our online programs offer flexible learning options, allowing you to study at your own pace while gaining industry-relevant knowledge. Whether you’re starting a new career or advancing your skills, we have a course for you.</p>
+     <br>
+     <p>Join a community of motivated learners and benefit from personalized support, real-world projects, and access to cutting-edge resources that will empower your professional growth and future opportunities.</p>
+
+                 <div class="coom">
+                    <h3>Leave a comment</h3>
+                    <form class="commenform">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="btn red-btn" >POST COMMENT</button>
+                    </form>
+                 </div>
+                </div>
+
+        <div class="blogrg">
+            <h3> Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>89</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>80</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>88</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>87</span>
+            </div>
+            <div>
+                <span>Business Analytics</span>
+                <span>82</span>
+            </div>
+        </div>
+
+
+    </div>
+   </section>
+
+    
+
+    
+    <!----------------- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+    <p>We are dedicated to empowering students with quality education <br>and innovative learning experiences. Join us to grow and succeed.</p>
+
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart"></i>  by Caleb </p>
+    </section>
+  <!--------------  about us  -->
+   
+    
+
+
+
+        <!---js for toggle menu -->
+    <script>
+        var navList = document.getElementById("nav-lista");
+
+        function showMenu() {
+            navList.style.right = "0";
+        }
+
+        function hideMenu() {
+            navList.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
